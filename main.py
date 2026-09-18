@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
         match option:
             case "1":
-                best_buy.show_all_product()
+                best_buy.show_all_products()
             case "2":
                 total = best_buy.get_total_quantity()
                 print(f'Total of {total} items in store')
